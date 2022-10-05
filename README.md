@@ -17,7 +17,7 @@ This is a realization of the Hyperspectral Anomaly detector proposed in the arti
 3. Download ADD-on: MatConvNet
 4. Download Visual Studio C++ Compiler
 
-#### Running Main_demo.m
+### Running Main_demo.m
 
 1. Change line 426 in "vl_compilenn.m" to have the correct path to your cl.exe file.
     * Example: 
@@ -37,5 +37,14 @@ This is a realization of the Hyperspectral Anomaly detector proposed in the arti
     3. You can then setup the Add-on by running:
             vl_vl_setupnn
 3. You are then ready to run Main_demo.m
+
+### Problems?
+
+More documentation can be found here:
+
+* Installation guide of MatConvNet: https://www.vlfeat.org/matconvnet/install/
+* Compilation guide of MatConvNet: https://www.vlfeat.org/matconvnet/install/#compiling
+* Frequently-asked questions to MatConvNet: https://www.vlfeat.org/matconvnet/faq/
+
 
 
