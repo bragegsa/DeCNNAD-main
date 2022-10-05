@@ -1,8 +1,8 @@
 ## Background
 
-This is a realization of the Hyperspectral Anomaly detector proposed in the article: "Hyperspectral Anomaly Detection via DeepPlug-and-Play DenoisingCNN Regularization". The code is written by X. Fu, S. Jia, L. Zhuang, M. Xu, J. Zhou and Q. Li.
+This is a realization of the Hyperspectral Anomaly detector proposed in the article: "Hyperspectral Anomaly Detection via DeepPlug-and-Play DenoisingCNN Regularization".
 
-
+** I have no rights to the code. It is written by X. Fu, S. Jia, L. Zhuang, M. Xu, J. Zhou and Q. Li. **
 
 ## How to run
 
