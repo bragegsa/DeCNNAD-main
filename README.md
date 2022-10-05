@@ -24,13 +24,10 @@ This is a realization of the Hyperspectral Anomaly detector proposed in the arti
 2. Compiling the MatCocNet Add-on
     1. In the Matlab terminal you will have to change the C++ compiler to the Visual Studio compiler
         * Write the following and choose the Visual Studio C and C++ compiler:
-        '''
-            mex -setup C
-            mex -setup C++
-        '''
-    2. Write 
-    '''
-    vl_compilenn('EnableImreadJpeg', false)
-    '''
+            * mex -setup C
+
+            * mex -setup C++
+    2. Then write the following into the terminal:
+        * vl_compilenn('EnableImreadJpeg', false)
 
 
