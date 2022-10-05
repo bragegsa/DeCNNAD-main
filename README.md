@@ -7,16 +7,30 @@ This is a realization of the Hyperspectral Anomaly detector proposed in the arti
 ## How to run
 
 ### Cuda
-Markup : 
 * Check if your GPU supports CUDA capability by going to: chrome://gpu/
     * If so, download CUDA toolkit at: https://developer.nvidia.com/cuda-toolkit
 
 ### Matlab
 
-Markup :
 1. Clone the repository
 2. Download Matlab
 3. Download ADD-on: MatConvNet
 4. Download Visual Studio C++ Compiler
+
+#### Running Main_demo.m
+
+1. Change line 426 in "vl_compilenn.m" to have the correct path to your cl.exe file.
+    * Example: cl_path = 'C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\Hostx64\arm64';
+2. Compiling the MatCocNet Add-on
+    1. In the Matlab terminal you will have to change the C++ compiler to the Visual Studio compiler
+        * Write the following and choose the Visual Studio C and C++ compiler:
+        '''
+            mex -setup C
+            mex -setup C++
+        '''
+    2. Write 
+    '''
+    vl_compilenn('EnableImreadJpeg', false)
+    '''
 
 
