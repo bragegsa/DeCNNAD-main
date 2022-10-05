@@ -31,9 +31,9 @@ This is a realization of the Hyperspectral Anomaly detector proposed in the arti
             mex -setup C++
     2. Then write the following into the terminal:
         
-            vl_compilenn('EnableImreadJpeg', false) (Only for testing if the one below does not work)
-        
             vl_compilenn('enableGpu', true)
+
+            vl_compilenn('EnableImreadJpeg', false) (Only for testing if the one above does not work)
     3. You can then setup the Add-on by running:
             vl_vl_setupnn
 3. You are then ready to run Main_demo.m
