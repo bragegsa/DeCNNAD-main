@@ -1,8 +1,8 @@
-## Background
-
-This is a realization of the Hyperspectral Anomaly detector proposed in the article: "Hyperspectral Anomaly Detection via DeepPlug-and-Play DenoisingCNN Regularization".
+## IMPORTANT NOTE
 
 **I have no rights to the code. It is written by X. Fu, S. Jia, L. Zhuang, M. Xu, J. Zhou and Q. Li. I am only using it to figure out how everything works and therefore some parts of the code might deviate from what the original authors wrote.**
+
+This is a realization of the Hyperspectral Anomaly detector proposed in the article: "Hyperspectral Anomaly Detection via DeepPlug-and-Play DenoisingCNN Regularization".
 
 Link to official code: https://github.com/FxyPd/DeCNNAD
 
