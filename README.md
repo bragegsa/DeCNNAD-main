@@ -16,7 +16,7 @@ Link to official code: https://github.com/FxyPd/DeCNNAD
 
 1. Clone the repository
 2. Download Matlab
-3. Download ADD-on: MatConvNet
+3. Download ADD-ons: MatConvNet, MinGW, Statistics and Machine Learning Toolbox and Parallel Computing Toolbox
 4. Download Visual Studio C++ Compiler
 
 ### Running Main_demo.m
@@ -31,14 +31,21 @@ Link to official code: https://github.com/FxyPd/DeCNNAD
             mex -setup C
 
             mex -setup C++
-    2. Then write the following into the terminal:
+    2. Then write one of the following into the terminal (Start with the first. If that doesn't work, try the next command.):
         
             vl_compilenn('enableGpu', true)
 
+            vl_compilenn('verbose', 1, 'enableGpu', true, 'cudaRoot', 'C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.8', 'CudaMethod', 'mex') (The path to your cuda toolkit must be specified to your system)
+
             vl_compilenn('EnableImreadJpeg', false) (Only for testing if the one above does not work)
     3. You can then setup the Add-on by running:
-            vl_vl_setupnn
+            vl_setupnn
 3. You are then ready to run Main_demo.m
+    1. In the terminal window, you should go to where matconvnet is stored. Ex.:
+            C:\Users\USERNAME\AppData\Roaming\MathWorks\MATLAB Add-Ons\Collections\vlfeat_matconvnet
+    2. Then you should run the Main_demo.m by pressing run when opening the fiule in the editor window
+    3. You should then get a question wether you would like to add Main_demo.m to matlab path. Press **YES**.
+    4. EVrything should then be OK.
 
 ### Problems?
 
