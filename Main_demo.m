@@ -31,7 +31,7 @@ Y=reshape(DataTest, num, Dim)';
 E=DeCNNAD(Y,H,W,K,beta,lamda,net);
 
 r_new=sqrt(sum(E.^2,1));
-AUC=ROC(r_new,map,1) % AUC
+AUC=ROC(r_new,map,1); % AUC
 f_anomaly=reshape(r_new,[H,W]);
 f_anomaly=(f_anomaly-min(f_anomaly(:)))/(max(f_anomaly(:))-min(f_anomaly(:)));
 figure, imshow(f_anomaly);

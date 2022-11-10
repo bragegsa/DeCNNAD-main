@@ -16,7 +16,7 @@ Link to official code: https://github.com/FxyPd/DeCNNAD
 
 1. Clone the repository
 2. Download Matlab
-3. Download ADD-on: MatConvNet
+3. Download ADD-on: MatConvNet (Important to add it to matlab path)
 4. Download Visual Studio C++ Compiler
 
 ### Running Main_demo.m
